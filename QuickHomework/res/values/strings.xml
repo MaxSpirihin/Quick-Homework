@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuickHomework</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title">Quick Homework</string>
+    <string name="menu_add">Add Home Task</string>
+    <string name="menu_show">Show Home Task</string>
+    <string name="menu_schedule">Schedule</string>
+    <string name="choose_lesson">Choose Lesson</string>
+    <string name="manage_subject">Subjects\nManagement</string>
+    <string name="no_subject">There are not subjects.\n Add it.</string>
+    <string name="save">Save Text</string>
+    <string name="from_gallery">Gallery</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="text_saved">Text Saved</string>
+    <string name="photo_saved">Saved</string>
+    <string name="no_home_work">No home work</string>
+    <string name="add_subject">Add Subject</string>
+    <string name="delete_subject">Delete</string>
+    <string name="change_subject">Change</string>
+    <string name="secure">Secure</string>
+    <string name="are_you_sure">Are you sure? All home works will be destroyed.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save_subject">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_schedule">Add Schedule</string>
+    <string name="version">Version 1.5</string>
+    <string name="release_date">Release Date 16.09.2014</string>
+    <string name="main_titles">Developed by Maxim Spirikhin (NRNU Mephi student)</string>
+    <string name="titles">Idea - Sergey Surakin\nAssistance in design develop - Dmitry Rumiantsev</string>
+    <string name="from_me">Maxim Spirikhin:\n"Hello and thanks for downloading my application. I have done this applications for students like we are. We have not diary and the most convenient way to keep homework is a picture to phone. Then look uncomfortable to find the ​​photo in the gallery. This application is solving this problem. I believe you will like our application. I am waiting your feedback and suggestions.Thank you!!!</string>
+    <string name="e_mail"><u>maaaks777@mail.ru</u></string>
+    <string name="vk_page"><u>vk.com/maaaks777</u></string>
+    <string name="prev_proj">My previous projects:</string>
+    <string name="touch_game"><u>https://play.google.com/store/apps/details?id=com.thetouchgame</u></string>
+    <string name="pogugli"><u>https://play.google.com/store/apps/details?id=com.maaaks777.googlingit</u></string>
+    <string name="show">Show</string>
+    <string name="change">Change</string>
+
+</resources>

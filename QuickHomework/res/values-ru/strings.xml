@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuickHomework</string>
+    <string name="title">Quick Homework</string>
+    <string name="menu_add">Добавить ДЗ</string>
+    <string name="menu_show">Просмотреть ДЗ</string>
+    <string name="menu_schedule">Расписание</string>
+    <string name="choose_lesson">Выберите предмет</string>
+    <string name="manage_subject">Управление\nПредметами</string>
+    <string name="no_subject">Предметов нет.\n Их нужно добавить.</string>
+    <string name="save">Сохранить</string>
+    <string name="from_gallery">Из Галереи</string>
+    <string name="enter_text">Введите текст</string>
+    <string name="enter_name">Введите название</string>
+    <string name="text_saved">Заметка сохранена</string>
+    <string name="photo_saved">Сохранено</string>
+    <string name="no_home_work">Нет ДЗ</string>
+    <string name="add_subject">Добавить предмет</string>
+    <string name="delete_subject">Удалить</string>
+    <string name="change_subject">Изменить</string>
+    <string name="secure">Закрепить</string>
+    <string name="are_you_sure">Вы уверены? Все ДЗ по этому предмету будет удалено.</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="save_subject">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="add_schedule">Добавить расписание</string>
+    <string name="version">Version 1.5</string>
+    <string name="release_date">Дата выхода 16.09.2014</string>
+    <string name="main_titles">Разработчик - Спирихин Максим (студент НИЯУ МИФИ)</string>
+    <string name="titles">Идея - Суракин Сергей.\n Помощь в разработке дизайна - Дмитрий Румянцев.</string>
+    <string name="from_me">Максим Спирихин:\n"Привет. Это приложение сделано для студентов, таких же, как мы. У нас нет дневников, и наиболее удобный и быстрый способ сохранения домашнего задания - это сделать фото с телефона. Однако потом бывает неудобно искать нужное фото в галерее. Это приложение призвано решить проблему. Я надеюсь, что вы будете долго им пользоваться. Жду ваших отзывов и предложений. Спасибо!!!</string>
+    <string name="e_mail"><u>maaaks777@mail.ru</u></string>
+    <string name="vk_page"><u>vk.com/maaaks777</u></string>
+    <string name="prev_proj">Мои прошлые проекты:</string>
+    <string name="touch_game"><u>https://play.google.com/store/apps/details?id=com.thetouchgame</u></string>
+    <string name="pogugli"><u>https://play.google.com/store/apps/details?id=com.maaaks777.googlingit</u></string>
+    <string name="show">Просмотреть</string>
+    <string name="change">Изменить</string>
+
+</resources>

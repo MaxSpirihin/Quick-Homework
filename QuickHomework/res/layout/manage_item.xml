@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnChange"
+        android:layout_alignBottom="@+id/btnChange"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_background"
+        android:text="@string/delete_subject" />
+
+    <CheckBox
+        android:id="@+id/cbSecure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnChange"
+        android:layout_alignBottom="@+id/btnChange"
+        android:layout_alignParentLeft="true"
+        android:drawableLeft="@drawable/secure" />
+
+    <Button
+        android:id="@+id/btnChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvName"
+        android:layout_toLeftOf="@+id/btnDelete"
+        android:background="@drawable/button_background"
+        android:text="@string/change_subject" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

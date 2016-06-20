@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:shadowColor="#00ccff"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        android:shadowRadius="1.5"
+        android:text="@string/title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/button_background"
+        android:text="@string/menu_show"
+        android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/btnSchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAdd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/button_background"
+        android:text="@string/menu_schedule"
+        android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnShow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/button_background"
+        android:text="@string/menu_add"
+        android:textSize="23sp" />
+
+    <ImageButton
+        android:id="@+id/btnInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/clear_background"
+        android:src="@drawable/info_background" />
+
+    <ImageButton
+        android:id="@+id/btnPict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/clear_background"
+        android:src="@drawable/pict_background" />
+
+</RelativeLayout>

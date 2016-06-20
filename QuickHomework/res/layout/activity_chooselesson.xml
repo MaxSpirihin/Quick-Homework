@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/second_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvChooseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="@string/choose_lesson"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <ListView
+        android:id="@+id/lvSubjects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnManageSubjects"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvChooseTitle" >
+
+    </ListView>
+    
+    
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_background"
+        android:text="@string/add_subject"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btnManageSubjects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_background"
+        android:text="@string/manage_subject"
+        android:textSize="30sp" />
+
+</RelativeLayout>
